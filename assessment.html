@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あなたのいいところ診断</title>
+  <link rel="stylesheet" href="assessment.css">
+</head>
+<body>
+  <h1>あなたのいいところ</h1>
+  <p>診断したい名前を入れて下さい</p>
+  <!-- type属性：入力の形式（テキスト、パスワード、チェックボックス、ラジオボタン）を指定 -->
+  <!-- size属性：入力欄（テキストフィールド）の大きさを設定 -->
+  <!-- maxlength属性：この入力欄に入力できる最大の文字数を設定 -->
+  <input type="text" id="user-name" size="40" maxlength="20">
+  <button id="assessment">診断する</button>
+  <div id="result-area"></div>
+  <div id="tweet-area"></div>
+  <script src="assessment.js"></script>
+</body>
+</html>
